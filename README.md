@@ -75,3 +75,20 @@ density of nearby features
 Accessibility features
 road density
 travel proximity
+
+
+----------------------------------------------------------
+Challenges 
+How is GeoAI different from traditional GIS analysis?  
+GeoAI combines geospatial data with machine learning and artificial intelligence, while traditional GIS focuses on rule-based spatial analysis (overlay, buffering, queries).
+What spatial features most influenced the model? 
+
+What areThe most influential features are typically:
+
+Distance to roads → strongest predictor of accessibility and development
+Land use code → defines zoning and existing function
+Parcel area and compactness → affects land suitability and structure
+Proximity to schools and tourism sites → influences commercial and residential value the limitations of this model?  
+
+How can this support spatial decision-making?  
+What ethical or planning concerns may arise from predictive parcel classification?  
