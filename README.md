@@ -8,3 +8,18 @@ Model Development
 Model Validation and Evaluation 
 Spatial Prediction and Visualization 
 Documentation
+
+
+---------------------------------------------
+Why are parcels the prediction unit? 
+Parcels are used as the prediction unit because they represent individual land units with defined boundaries and attributes. They provide a meaningful spatial scale for analyzing and predicting land use or parcel characteristics, allowing each parcel to be treated as a separate observation in the model.
+
+What spatial processes might roads influence?
+Roads influence accessibility, transportation, urban growth, economic activity, and land development patterns. Parcels closer to roads may experience higher development potential and changes in land use compared to more isolated areas.
+
+Why might tourism affect parcel classification?
+Tourism-related activities can influence land use and land value. Parcels located near tourist attractions may be more likely to be used for commercial, recreational, hospitality, or mixed-use purposes, making tourism an important predictor for parcel classification.
+
+Is machine learning occurring at this stage?
+No. At this stage, the focus is on data preparation and feature engineering, where spatial variables are extracted and organized. Machine learning begins later when these engineered features are used to train and evaluate predictive models.
+
