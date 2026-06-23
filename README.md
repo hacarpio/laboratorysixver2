@@ -47,4 +47,31 @@ Distance to roads → strongest predictor of development and accessibility
 Land use type → defines function and zoning
 Distance to urban/tourism centers → affects land value and classification
 
+----------------------
 
+What does accuracy mean spatially?
+Spatial accuracy means how well the model correctly predicts locations or parcels in the real world.
+
+Can a model have high accuracy but poor spatial interpretation?
+Yes.
+
+What features may improve the model?
+
+Features that improve spatial prediction include:
+
+Distance-based features
+distance to roads
+distance to water
+distance to schools
+distance to tourism sites
+Geometry features
+parcel area
+perimeter
+shape index
+Contextual features
+land use type
+neighboring parcel characteristics
+density of nearby features
+Accessibility features
+road density
+travel proximity
