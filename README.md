@@ -22,4 +22,29 @@ Tourism-related activities can influence land use and land value. Parcels locate
 
 Is machine learning occurring at this stage?
 No. At this stage, the focus is on data preparation and feature engineering, where spatial variables are extracted and organized. Machine learning begins later when these engineered features are used to train and evaluate predictive models.
+-----------------------------------------------------------
+
+Why can geometry not be used directly in ML?
+Geometry (points, lines, polygons) cannot be used directly because machine learning models only understand numerical input, not spatial objects. Geometries must be converted into numeric features such as:
+area
+perimeter
+coordinates
+distances
+density or counts
+
+Why are distances meaningful features?
+Distances represent spatial relationships and accessibility. They are important because:
+
+Closer features usually have stronger influence (e.g., schools, roads, water)
+They capture real-world interaction (e.g., land near roads develops faster)
+They help models understand proximity effects
+
+Which feature do you think is most influential?
+
+It depends on the study area, but commonly the most influential features are:
+
+Distance to roads → strongest predictor of development and accessibility
+Land use type → defines function and zoning
+Distance to urban/tourism centers → affects land value and classification
+
 
